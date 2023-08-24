@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  display: grid;
+  height: 100vh;
+  background: silver;
+  grid-template-rows: 150px 1fr;
+}
+
+.main .header-title {
+  display: grid;
+  align-items: center;
+  text-align: center;
+}
+
+.main .create-form {
+  display: grid;
+  height: 30px;
+  gap: 10px;
+  justify-items: center;
+}
+.main .create-form button {
+  width: 100px;
+  cursor: pointer;
+}
+.main .create-form button:hover {
+  background: silver;
+}

@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  display: grid;
+  height: 100vh;
+  background: silver;
+  grid-template-rows: 250px 1fr;
+}
+
+.main .header-title {
+  display: grid;
+  align-items: center;
+  text-align: center;
+}
+
+.main .header-title .btn_form {
+  display: grid;
+  width: 100px;
+  justify-self: center;
+}
+.main .header-title button:hover {
+  cursor: pointer;
+  background: silver;
+}
+
+.main .table {
+  display: flex;
+  justify-content: center;
+}
+.main .table tr th {
+  width: 250px;
+  background: rgba(235, 250, 135, 0.388);
+}
+.main .table tr td {
+  padding-top: 5px;
+  text-align: center;
+}
+.main .table .products:nth-child(odd) {
+  background: rgba(119, 136, 153, 0.263);
+}
